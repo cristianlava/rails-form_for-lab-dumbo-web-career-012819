@@ -1,0 +1,9 @@
+<%= form_for @school do |f|%>
+  <%= f.label 'Enter your new title'%></br>
+  <%= f.text_field :title%></br>
+
+  <%= f.label "Enter your new room_number"%></br>
+  <%= f.text_field :room_number%></br>
+
+  <%= f.submit 'Update School class'%>
+<% end%>
